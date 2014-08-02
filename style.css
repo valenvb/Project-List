@@ -1,0 +1,68 @@
+.project-well {
+    min-height: 20px;
+    padding: 9px;
+    background-color: rgba(245,245,245, 0.9);
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    width: 33.3%;
+    float: left;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.project-header {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    color: black !important;
+}
+
+.project-header > a {
+    color: black !important;   
+}
+
+
+.project-name {
+    margin-top: 9px;
+    margin-right: 0px;
+    float: left;
+    font-size: 18px;
+}
+
+.project-lang{
+    font-size: 85%;
+    float: right !important;
+    margin-top: 14px;
+
+}
+
+.project-icon {
+    margin-right: 5px;
+    float: left !important; 
+    margin-top: 14px;
+}
+
+.project-body {
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+}
+
+.project-description {
+    display: inline-block;
+    float: left;
+    max-width: 78%;
+}
+
+.project-links {
+    display: inline-block;
+    
+    float: right !important;
+}
+
+.project-link-img {
+    margin-right: 3px;
+}
