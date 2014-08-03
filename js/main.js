@@ -5,7 +5,7 @@
 
         if (typeof input === 'string') {
             opts.username = input;
-        }
+        } else { opts = input; }
         
         settings = $.extend({}, $.fn.projectList.options, opts);
         
