@@ -46,6 +46,7 @@ $.fn.projectList.options = {
             download : "img/download.png" //image for downloads/releases link
         },
         linksOpenIn : '_blank', //target attribute for all links
+        widget: null //define  a custom render function
     };
 
 ```
