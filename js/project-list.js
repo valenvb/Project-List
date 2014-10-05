@@ -28,7 +28,7 @@
                 
                 if ($.inArray(projects[project].name, settings.hide) === -1) {
                     
-                    widget = me.widget(settings, projects[project], id);
+                    widget = (settings.widget || me.widget).apply(window, [settings, projects[project], id]);
                     $(container).append(widget);
                 }
                 id += 1;
